@@ -1,6 +1,9 @@
 <h1>ControllerServer</h1>
 ControllerServer is a pluggable websocket server that you can run on your local machine which can inform the browser of what your peripheral devices are doing. The server currently reports to port 51343 although this will be made configurable.
 Currently there are the following plugins found in the the Controllers folder. 
+
+<h2>How to run </h2>
+Please first download the latest release from https://github.com/adampolar/ControllerServer/releases and extract it to a suitable location on your PC. Run ```setup.bat``` to remove ADS stuff (incompatible with MEF architecture really) or manually remove it yourself (via the properties page). After this please visit http://adampolar.github.com/ControllerServerTest to see if it works.
 <h2>Plugins</h2>
 
 <b>Oculus Rift DK2</b> - in the format;
