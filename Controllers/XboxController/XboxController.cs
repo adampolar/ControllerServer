@@ -11,7 +11,7 @@ namespace Server
 {
     [Export(typeof(IController))]
     [ExportMetadata("Name", "Xbox360Controller")]
-    public class XboxController :IController
+    public class XboxController : IController
     {
         GamePadState gamePadState;
         uint lastPacketNumber;
