@@ -79,6 +79,8 @@
             this.Controls.Add(this.lvControllers);
             this.Controls.Add(this.picWebSocketsActivated);
             this.Controls.Add(this.lblWebSockets);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.MaximizeBox = false;
             this.Name = "ControllerServer";
             this.ShowIcon = false;
             this.Text = "ControllerServer";
