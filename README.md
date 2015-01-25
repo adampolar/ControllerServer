@@ -67,3 +67,14 @@ Credit to Oculus Rift team for a great SDK and wwwtyro @ https://github.com/wwwt
 }
 ```
 Credit to speps @ https://github.com/speps/XInputDotNet for a great library for accessing Xbox 360 controller input. 
+
+<h3>How to make your own plugins</h3>
+Just download the latest release from the releases page and create a .net project referencing the Server executable (Server.exe). After this please implement the API  ```IController``` and also decorate it with the MEF attributes required. i.e.
+```C#
+    [Export(typeof(IController))]
+    [ExportMetadata("Name", "Xbox360Controller")]
+    public class XboxController : IController
+    {
+```
+The Name attribute in the meta data will be what the section in the JSON data will read and how it appears in the GUI.
+Once you are done just drop this (and any dependencies) in the Controllers folder next to the Controller Sever executable and restart the server.
