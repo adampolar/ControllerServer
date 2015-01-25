@@ -18,6 +18,8 @@ Currently there are the following plugins found in the the Controllers folder.
 ```
 where the first four parameters refer to the orientation quaternion and the last three refer to the 3 dimensional positioning of the device.
 
+Credit to Oculus Rift team for a great SDK and wwwtyro @ https://github.com/wwwtyro for the starting point with this.
+
 <b>Xbox 360 controller</b> - in the format; 
 ```JSON
 {
@@ -64,3 +66,4 @@ where the first four parameters refer to the orientation quaternion and the last
   }
 }
 ```
+Credit to speps @ https://github.com/speps/XInputDotNet for a great library for accessing Xbox 360 controller input. 
