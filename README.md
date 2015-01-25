@@ -78,3 +78,5 @@ Just download the latest release from the releases page and create a .net projec
 ```
 The Name attribute in the meta data will be what the section in the JSON data will read and how it appears in the GUI.
 Once you are done just drop this (and any dependencies) in the Controllers folder next to the Controller Sever executable and restart the server.
+<h4>BTW...</h4>
+I am aware of the fact that some browser vendors are currently trying to add direct access to these devices through javascript. The purpose of this project is to provide an east way to hook up device drivers to a websockets server, so that any old random device can be programmed against!
