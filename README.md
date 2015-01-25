@@ -1,5 +1,5 @@
 <h1>ControllerServer</h1>
-ControllerServer is a pluggable websocket server that you can run on your local machine which can inform the browser of what your peripheral devices are doing.
+ControllerServer is a pluggable websocket server that you can run on your local machine which can inform the browser of what your peripheral devices are doing. The server currently reports to port 51343 although this will be made configurable.
 Currently there are the following plugins found in the the Controllers folder. 
 <h2>Plugins</h2>
 
