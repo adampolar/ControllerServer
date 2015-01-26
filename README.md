@@ -3,7 +3,10 @@ ControllerServer is a pluggable websocket server that you can run on your local 
 Currently there are the following plugins found in the the Controllers folder. 
 
 <h2>How to run </h2>
-Please first download the latest release from https://github.com/adampolar/ControllerServer/releases and extract it to a suitable location on your PC. Run ```setup.bat``` to remove ADS stuff (incompatible with MEF architecture really) or manually remove it yourself (via the properties page). After this please visit http://adampolar.github.com/ControllerServerTest and http://adampolar.github.com/ControllerServerTest/ballmove.html to see if it works. The oculus rift seems to be a bit of a pain in that it reports it is working but actually isn't, when the blue light comes on the camera it should be working. Otherwise try restarting the server.
+Please first download the latest release from https://github.com/adampolar/ControllerServer/releases and extract it to a suitable location on your PC. Run ```setup.bat``` to remove ADS stuff (incompatible with MEF architecture really) or manually remove it yourself (via the properties page). After this please visit http://adampolar.github.com/ControllerServerTest and http://adampolar.github.com/ControllerServerTest/ballmove.html to see if it works. The oculus rift seems to be a bit of a pain in that it reports it is working but actually isn't, when the blue light comes on the camera it should be working (probably my fault). Otherwise try restarting the server.
+
+![alt Interface of controller server](https://raw.github.com/adampolar/ControllerServer/master/gui.png)
+If a plugin is listed then it means the plugin has been picked up by the server. The cross or tick means that these devices have been initialised or not so respectively. The cross or tick next at the top tell you whether or not the browser has successfully connected to the server. 
 <h2>Plugins</h2>
 
 <b>Oculus Rift DK2</b> - in the format;
